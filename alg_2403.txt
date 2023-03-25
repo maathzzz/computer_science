@@ -30,6 +30,13 @@ print("A média final do aluno é: ", media)
 
 numTabuada = float(input("Digite o número que gostaria de saber a tabuada: "))
 
+for count in range(10):
+  print("%d * %d = %d" % (numTabuada, count+1, numTabuada*(count+1)))
+
+#---------------------------------------------------------------------
+
+numTabuada = float(input("Digite o número que gostaria de saber a tabuada: "))
+
 print(numTabuada, "x 1 =", numTabuada * 1)
 print(numTabuada, "x 2 =", numTabuada * 2)
 print(numTabuada, "x 3 =", numTabuada * 3)
