@@ -1,0 +1,63 @@
+# ---------------------------------------------------
+# 1)
+
+media = float(input("Digite a média do aluno: "))
+freq = float(input("Digite a frequência do aluno: "))
+
+if (freq >= 75 ):
+  if (media >= 5) and (media <= 7):
+    print("Aluno em exame")
+  else: 
+    if(media >=7):
+      print("Aluno aprovado")
+    else :
+      print("Aluno reprovado")
+else: 
+  print("Aluno reprovado")
+
+# ---------------------------------------------------
+# 2)
+
+num1 = int(input("Digite o primeiro número:"))
+num2 = int(input("Digite o primeiro número:"))
+
+if(num1 == num2):
+  print("Ambos os números são iguais.")
+elif(num1 > num2):
+  print("O primeiro número '{0}' é maior que o segundo número '{1}'.".format(num1, num2))
+else:
+  print("O segundo número '{0}' é o maior que o primeiro número '{1}'.".format(num2, num1))
+
+# ---------------------------------------------------
+# 3)
+
+num = int(input("Digite um número para saber se ele é múltiplo de 5: "))
+
+if (num % 5 == 0):
+  print("O número {0} é multiplo de 5.".format(num))
+else:
+  print("O número {0} não é multiplo de 5.".format(num))
+
+# ---------------------------------------------------
+# 4)
+
+num = int(input("Digite um número para saber se ele é par ou ímpar."))
+
+if (num % 2 == 0):
+  print("O número {0} é par".format(num))
+else:
+  print("O número {0} é ímpar.".format(num))
+
+# ---------------------------------------------------
+# 5)
+
+alt = float(input("Digite a altura do jogador(a) em centímetros."))
+idade = int(input("Digite a idade do jogador(a)."))
+
+if (idade >= 15):
+  if (alt >= 180):
+    print("O jogador está aprovado.")
+  else:
+    print("O jogador está reprovado.")
+else:
+  print("O jogador está reprovado.")
