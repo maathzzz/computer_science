@@ -1,3 +1,26 @@
+# ============================================================
+# Quiz!
+# ============================================================
+
+num_alunos = int(input("Digite a quantidade de alunos: "))
+
+for aluno in range(num_alunos):
+  media = float(input("Digite a média do aluno: "))
+  freq = float(input("Digite a frequência do aluno: "))
+
+  if (freq >= 75 ):
+    if (media >= 5) and (media <= 7):
+      print("Aluno em exame")
+    else: 
+      if(media >=7):
+        print("Aluno aprovado")
+      else :
+        print("Aluno reprovado")
+  else: 
+    print("Aluno reprovado")
+
+# ============================================================
+
 # 1) Elabore um algoritmo que calcule a média de um aluno, considerando como é feito a cálculo no UNISAGRADO. 
 Para estar aprovado a média deverá ser maior ou igual a 7 e a frequência maior ou igual a 75%. 
 Indique se o aluno está aprovado, de exame ou reprovado.
