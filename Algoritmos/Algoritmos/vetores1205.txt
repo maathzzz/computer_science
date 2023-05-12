@@ -1,0 +1,33 @@
+# ============================================================
+# Comparando elementos em um vetor
+# ============================================================
+
+points = []
+quant = int(input("Quantos números serão inseridos?"))
+
+for i in range(0, quant):
+    num = int(input("Digite um número: "))
+    points.append(num)
+
+bigger = points[0]
+for i in range(len(points)):
+    if points[i] > bigger:
+        bigger = points[i]
+        
+print('O vetor é', points)
+print('O maior número do vetor é:', bigger)
+
+# ============================================================
+# Soma de vetores simplificada
+# ============================================================
+
+list1 = [20, 11, 30, 40, 66]
+list2 = [89, 100, 4, 26, 99]
+
+sum = sum(list1) + sum(list2)
+print("A soma dos elementos do vetor {0} e do vetor {1} é {2}".format(list1, list2, sum))
+
+
+# ============================================================
+# Soma de vetores simplificada
+# ============================================================
